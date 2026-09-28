@@ -1,0 +1,16 @@
+{
+  "name": "player_id_comparison",
+  "description": "Every 4-seat roster drawn from player identities 1-10 (5 doesn't exist): all-same-identity rosters and every mixed combination, at C=28, unit=4, 730 days, $120 budget.",
+  "entrants": ["1", "2", "3", "4", "6", "7", "8", "9", "10"],
+  "roommates": [4],
+  "seeds": [5, 8],
+  "grid": {
+    "capacity": [20,28,40,60],
+    "budget": [120,200,400],
+    "days": [200, 730]
+  },
+  "defaults": {
+    "unit": 4,
+    "timeout": 1.0
+  }
+}
